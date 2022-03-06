@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300&display=swap"); 
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 395px;
+    }
+}
+
+body,h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	background-color: #d4c8ba
+}
+
+h1,h2 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
